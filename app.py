@@ -158,7 +158,7 @@
     "colab": {
       "provenance": [],
       "authorship_tag": "ABX9TyMhuTRZBDARkbZe96R+wGJV",
-      "include_colab_link": true
+      "include_colab_link": True
     },
     "kernelspec": {
       "display_name": "Python 3",
