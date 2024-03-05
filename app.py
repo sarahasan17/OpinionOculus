@@ -12,47 +12,6 @@
     },
     {
       "cell_type": "code",
-      "source": [
-        "!pip install --upgrade pip\n",
-        "!pip install youtube-comment-downloader==0.1.70\n",
-        "!pip install streamlit\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "4XqKNxpHa8xK",
-        "outputId": "92fdcf88-7971-474e-cf78-187fe70c3ac1"
-      },
-      "execution_count": 3,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Collecting youtube-comment-downloader\n",
-            "  Downloading youtube_comment_downloader-0.1.70-py3-none-any.whl (7.9 kB)\n",
-            "Collecting dateparser (from youtube-comment-downloader)\n",
-            "  Downloading dateparser-1.2.0-py2.py3-none-any.whl (294 kB)\n",
-            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m295.0/295.0 kB\u001b[0m \u001b[31m6.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[?25hRequirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from youtube-comment-downloader) (2.31.0)\n",
-            "Requirement already satisfied: python-dateutil in /usr/local/lib/python3.10/dist-packages (from dateparser->youtube-comment-downloader) (2.8.2)\n",
-            "Requirement already satisfied: pytz in /usr/local/lib/python3.10/dist-packages (from dateparser->youtube-comment-downloader) (2023.4)\n",
-            "Requirement already satisfied: regex!=2019.02.19,!=2021.8.27 in /usr/local/lib/python3.10/dist-packages (from dateparser->youtube-comment-downloader) (2023.12.25)\n",
-            "Requirement already satisfied: tzlocal in /usr/local/lib/python3.10/dist-packages (from dateparser->youtube-comment-downloader) (5.2)\n",
-            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->youtube-comment-downloader) (3.3.2)\n",
-            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->youtube-comment-downloader) (3.6)\n",
-            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->youtube-comment-downloader) (2.0.7)\n",
-            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->youtube-comment-downloader) (2024.2.2)\n",
-            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil->dateparser->youtube-comment-downloader) (1.16.0)\n",
-            "Installing collected packages: dateparser, youtube-comment-downloader\n",
-            "Successfully installed dateparser-1.2.0 youtube-comment-downloader-0.1.70\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
       "execution_count": 4,
       "metadata": {
         "colab": {
@@ -197,7 +156,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPc2pPOws3Qmw1ndjlfWJMz",
+      "authorship_tag": "ABX9TyNHOYWZs8pmdbaMwZWtesdS",
       "include_colab_link": true
     },
     "kernelspec": {
