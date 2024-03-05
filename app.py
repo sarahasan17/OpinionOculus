@@ -13,7 +13,8 @@
     {
       "cell_type": "code",
       "source": [
-        "!pip install youtube-comment-downloader"
+        "!pip install --upgrade pip\n",
+        "!pip install youtube-comment-downloader\n"
       ],
       "metadata": {
         "colab": {
@@ -195,7 +196,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNND09jUi2jMm8vaBfofcN1",
+      "authorship_tag": "ABX9TyP/1wUzX0kubesSP1govwlY",
       "include_colab_link": true
     },
     "kernelspec": {
