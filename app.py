@@ -14,7 +14,8 @@
       "cell_type": "code",
       "source": [
         "!pip install --upgrade pip\n",
-        "!pip install youtube-comment-downloader\n"
+        "!pip install youtube-comment-downloader==0.1.70\n",
+        "!pip install streamlit\n"
       ],
       "metadata": {
         "colab": {
@@ -196,7 +197,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP/1wUzX0kubesSP1govwlY",
+      "authorship_tag": "ABX9TyPc2pPOws3Qmw1ndjlfWJMz",
       "include_colab_link": true
     },
     "kernelspec": {
