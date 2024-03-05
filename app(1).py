@@ -14,7 +14,7 @@ from model import preprocess_data
 from prediction import display_sentiment_plot
 
 link = input("YouTube link: ")
-saved = './data/youtube_comment_file'
+saved = 'youtube_comment_file'
 
 # Download YouTube comments
 def download_comments(youtube_link, save_path):
