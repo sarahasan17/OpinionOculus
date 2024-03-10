@@ -1,4 +1,4 @@
-# OPINIONUCLUS
+# OPINIONOCULUS
 ## Youtube-comment-sentimental-analysis
 ## 1. YouTube Comment Retrieval
 
