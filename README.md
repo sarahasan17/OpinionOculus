@@ -34,3 +34,5 @@
     Display positive comments from the dataset for further analysis.
 
 The emphasis here is on the text preprocessing steps and the use of NLP techniques, such as sentiment analysis, tokenization, lemmatization, and handling class imbalance. These steps are crucial for preparing the text data before feeding it into any machine learning model.
+<img width="953" height="740" alt="image" src="https://github.com/user-attachments/assets/54204a46-5a65-4d2b-909a-8fb377b27d22" />
+
